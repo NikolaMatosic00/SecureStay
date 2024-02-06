@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 1.5rem;
+    background-color: lightblue;
+}
+
+.form {
+    margin-bottom: 2rem;
+    text-align: center;
+    align-self: center;
+}
+
+.btnAdd {
+    border-radius: 9px;
+    width: 100%;
+    margin-top: 35px;
+    background-color: rgb(104, 104, 246);
+    color: white;
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+.btnAdd:hover {
+    background-color: rgb(104, 104, 246, 0.5);
+}
+
+.heading2 {
+    text-align: center;
+}
+
+.roomForm {
+    align-self: center;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}

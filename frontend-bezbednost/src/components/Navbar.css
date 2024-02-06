@@ -1,0 +1,28 @@
+.style {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.style h4 {
+    color: #fff;
+    margin-left: 20px;
+    margin-right: auto;
+    text-decoration: none;
+  }
+
+  .buttonStyle {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: crimson;
+    border-radius: 5px;
+  }
