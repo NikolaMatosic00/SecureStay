@@ -2,6 +2,7 @@ import './App.css';
 import { SignUp } from './components/SignUp';
 import {SignIn} from './components/SignIn';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { PasswordReset } from './components/PasswordReset';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <div>
               <Routes>
                 <Route path='/register' element={<SignUp />} />
+                <Route path='/reset-password' element={<PasswordReset/>}/>
                 <Route path='/' element={<SignIn />} />
               </Routes>
             </div>
